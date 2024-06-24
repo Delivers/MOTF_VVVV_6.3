@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>VL.EditingFramework.Skia</id>
+    <version>2024.6.3</version>
+    <authors>vvvv group</authors>
+    <license type="expression">LGPL-3.0-only</license>
+    <licenseUrl>https://licenses.nuget.org/LGPL-3.0-only</licenseUrl>
+    <icon>nugeticon.png</icon>
+    <projectUrl>http://vvvv.org/</projectUrl>
+    <description>Skia views for the VL.EditinFramework</description>
+    <copyright>Copyright © 2024 by vvvv group. All rights reserved.</copyright>
+    <repository type="git" commit="6af3aa0dd9129f1fc4121181ebcedd806998cccd" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="VL.EditingFramework" version="2024.6.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
